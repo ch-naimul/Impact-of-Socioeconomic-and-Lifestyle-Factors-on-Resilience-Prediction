@@ -12,9 +12,9 @@ SMOTE Application: Given the class imbalance, we used Synthetic Minority Over-sa
 **3. Model Selection**
 We employed several machine learning models to predict resilience, focusing on the Gradient Boosting Classifier for its robustness and ability to capture complex patterns in data. The following models were tested:
 
-Random Forest
-Logistic Regression
-Gradient Boosting
+- Random Forest
+- Logistic Regression
+- Gradient Boosting
 **4. Hyperparameter Tuning**
 The Gradient Boosting Model was tuned using GridSearchCV to find the optimal set of hyperparameters, including:
 
@@ -38,20 +38,12 @@ The Confusion Matrix indicated that the model performed well in detecting resili
 **6. Feature Importance Analysis**
 The most important features identified by the Gradient Boosting model were:
 
-RiskFactorScore: A composite score likely capturing multiple health risks, contributing significantly to predictions.
-GenHlth (General Health): Strongly correlates with resilience, suggesting that individuals with poorer general health tend to be less resilient.
-Age: Age showed considerable importance, likely due to its association with various health conditions and resilience.
-DiffWalk (Difficulty Walking): A key indicator of physical resilience, influencing the model's predictions about mobility and overall health.
-BMI: Body Mass Index is a well-known indicator of health and a key factor in predicting resilience.
-Sex: Gender differences were significant in determining resilience outcomes.
-Income: Socioeconomic status, as indicated by income, has a substantial impact on resilience, reflecting access to healthcare and resources.
-Veggies: Regular consumption of vegetables correlated with higher resilience.
-Smoker: Smoking significantly impacted the resilience prediction, with smokers being less resilient.
-HighChol (High Cholesterol): High cholesterol was identified as a risk factor for non-resilience.
-NoDocbcCost (No Doctor due to Cost): The lack of healthcare access due to cost was a significant predictor of non-resilience.
-Feature Importance Plot:
-The plot below shows the ranking of these features by importance. The higher the bar, the more significant the feature in predicting resilience.
-
+- RiskFactorScore: A composite score likely capturing multiple health risks, contributing significantly to predictions.
+- GenHlth (General Health): Strongly correlates with resilience, suggesting that individuals with poorer general health tend to be less resilient.
+- Age: Age showed considerable importance, likely due to its association with various health conditions and resilience.
+- DiffWalk (Difficulty Walking): A key indicator of physical resilience, influencing the model's predictions about mobility and overall health.
+- BMI: Body Mass Index is a well-known indicator of health and a key factor in predicting resilience.
+- Sex: Gender differences were significant in determining resilience outcomes.
 
 **7. Model Interpretation**
 The Gradient Boosting Model was able to effectively capture the complex relationships between various features and resilience. The most influential features were a combination of both health-related factors (such as BMI, DiffWalk) and socioeconomic factors (such as RiskFactorScore, Income). This aligns with existing literature, which suggests that both physical and economic factors play crucial roles in determining resilience outcomes.
