@@ -9,12 +9,14 @@ Missing Data Handling: The dataset was checked for missing values, and appropria
 Feature Encoding: Categorical variables (such as Sex, Smoker, and Education) were encoded using label encoding.
 Feature Scaling: Numerical features were scaled using standardization to improve model performance and convergence speed.
 SMOTE Application: Given the class imbalance, we used Synthetic Minority Over-sampling Technique (SMOTE) to generate synthetic samples for the minority class (Resilient), balancing the dataset.
+
 **3. Model Selection**
 We employed several machine learning models to predict resilience, focusing on the Gradient Boosting Classifier for its robustness and ability to capture complex patterns in data. The following models were tested:
 
 - Random Forest
 - Logistic Regression
 - Gradient Boosting
+
 **4. Hyperparameter Tuning**
 The Gradient Boosting Model was tuned using GridSearchCV to find the optimal set of hyperparameters, including:
 
@@ -26,6 +28,7 @@ Through the grid search, the following parameters were selected:
 learning_rate: 0.05
 max_depth: 3
 n_estimators: 100
+
 **5. Model Evaluation**
 After training the model with the optimal hyperparameters, we evaluated its performance using metrics such as Accuracy, F1-Score, AUC-ROC, and a Confusion Matrix.
 
