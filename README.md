@@ -1,7 +1,7 @@
 _**Project Report: Impact of Socioeconomic and Lifestyle Factors on Resilience Prediction**_
 
 **1. Introduction**
-In this project, we aim to predict resilience outcomes based on a range of socioeconomic and lifestyle factors using a Gradient Boosting Classifier. The dataset includes features such as Health-related factors (e.g., BMI, HighBP, HighChol, Stroke, etc.) and Socioeconomic factors (e.g., Age, Income, Education). The goal is to identify which factors most strongly influence resilience and predict whether an individual is resilient or non-resilient.
+In this project, we aim to predict resilience outcomes based on a range of socioeconomic and lifestyle factors using a Gradient Boosting Classifier on the "Diabetes Health Indicator Dataset" from Kaggle. The dataset includes features such as Health-related factors (e.g., BMI, HighBP, HighChol, Stroke, etc.) and Socioeconomic factors (e.g., Age, Income, Education). The goal is to identify which factors most strongly influence resilience and predict whether an individual is resilient or non-resilient.
 
 **2. Data Preprocessing**
 Before training the model, we performed the following preprocessing steps:
