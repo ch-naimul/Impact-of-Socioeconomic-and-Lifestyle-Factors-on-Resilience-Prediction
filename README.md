@@ -54,3 +54,10 @@ The Gradient Boosting Model was able to effectively capture the complex relation
 
 **8. Conclusion**
 In this project, we built a robust machine learning model to predict resilience based on socioeconomic and lifestyle factors. The Gradient Boosting Classifier achieved high accuracy and AUC-ROC, with key features like RiskFactorScore, GenHlth, and Age being significant predictors. The model provides valuable insights into the factors that influence resilience, which can be used to inform interventions targeting at-risk populations.
+
+
+**Source of dataset**
+
+[Kaggle](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
+
+
